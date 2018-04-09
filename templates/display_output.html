@@ -1,0 +1,7 @@
+<h1>Prediction Results</h1>
+
+{% for concept in clarifai_response['outputs'][0]['data']['concepts'] %}
+<li>
+    {{concept['name']}}
+</li>
+{% endfor %}
