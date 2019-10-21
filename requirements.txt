@@ -10,4 +10,4 @@ jsonschema==2.5.1
 MarkupSafe==1.0
 Pillow==2.9.0
 requests==2.13.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
